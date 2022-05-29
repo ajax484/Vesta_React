@@ -4,19 +4,23 @@ import { useSwipeable } from 'react-swipeable';
 function CarouselItem({ slide }) {
     return (
         <div className={`bg-white w-[calc(100%-8px)] sm:w-[calc(50%-8px)] lg:w-[calc(33%-8px)] m-[4px] border-[1px] border-gray-200 p-4 flex-col shadow-md inline-flex space-y-4`}>
-            <p className="text-sm md:text-base text-gray-400 leading-6 md:leading-8 whitespace-normal">
+            <p className="text-sm md:text-base text-gray-500 leading-6 md:leading-8 whitespace-normal">
                 {slide.text}
             </p>
             <div className="flex flex-row space-x-8">
-                <img
-                    src={slide.image}
-                    alt="This is a carousel slide"
-                    className="w-20 h-auto rounded-full object-cover border-2 border-vestaPurple-1"
-                />
-                <p className=" text-black flex flex-col justify-around capitalize">
-                    <span className="text-lg md:text-xl lg:text-2xl font-medium">{slide.name}</span>
-                    <span className="text-gray-500 text-base md:text-lg">{slide.position}</span>
-                </p>
+                <div className="w-20">
+                    <img
+                        height={80}
+                        width={80}
+                        src={slide.image}
+                        alt="This is a carousel slide"
+                        className="w-full h-auto rounded-full border-2 border-vestaPurple-1"
+                    />
+                </div>
+                <div className=" text-black flex flex-col justify-around capitalize">
+                    <h3 className="text-lg md:text-xl lg:text-2xl font-medium">{slide.name}</h3>
+                    <h4 className="text-gray-500 text-base md:text-lg">{slide.position}</h4>
+                </div>
             </div>
         </div>
     )

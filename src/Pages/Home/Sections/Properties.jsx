@@ -44,10 +44,10 @@ export default function Properties() {
                     className="text-vestaPurple-1 text-base md:text-lg tracking-[3px] uppercase after:bg-purple-700 after:inline-block after:h-[1px] after:relative after:align-middle after:w-1/4 before:bg-purple-700 before:inline-block before:h-[1px] before:relative before:align-middle before:w-1/4">
                     our offers
                 </h1>
-                <h3
+                <h2
                     className="text-3xl md:text-4xl capitalize mt-2 mb-3">
                     latest properties to let
-                </h3>
+                </h2>
             </div>
             
             <div className="grid px-2 gap-4 lg:gap-0 grid-cols-1 md:grid-cols-3">

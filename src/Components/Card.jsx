@@ -6,9 +6,7 @@ export default function Card({ property }) {
     
     return (
         <div className="rounded-[5px] px-0 lg:px-4">
-            <div className="overflow-hidden">
-                <img src={image} alt="" className="h-[200px] w-full hover:scale-125 transition-all duration-300 ease-linear cursor-pointer" />
-            </div>
+            <div style={{ backgroundImage: `url(${image})` }} className={`h-[250px] bg-center bg-no-repeat bg-cover`}></div>
 
             <div className="bg-vestaPurple-1 text-white -mt-12 relative z-10 py-6 ml-2 mr-4 pl-4 lg:pl-8 pr-2 [box-shadow:0px_3px_4px_rgba(0,0,0,0.20)] space-y-4">
                 <div className="text-sm lg:text-base space-x-8">
@@ -41,8 +39,8 @@ export default function Card({ property }) {
                     </li>
                 </ul>
                 <div className="space-y-2">
-                    <h5 className="text-lg lg:text-xl">{name}</h5>
-                    <h6 className="text-slate-300 text-base lg:text-lg">{Location}</h6>
+                    <h3 className="text-lg lg:text-xl">{name}</h3>
+                    <h4 className="text-slate-300 text-base lg:text-lg">{Location}</h4>
                 </div>
             </div>
         </div>

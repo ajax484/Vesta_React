@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Hero() {
   return (
-    <section className="[background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/src/Assets/img/national-theatre.jpg')] h-screen bg-fixed bg-cover bg-center bg-no-repeat relative">
+    <section className="[background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/src/Assets/img/national-theatre.webp')] h-screen bg-fixed bg-cover bg-center bg-no-repeat relative">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center space-y-3 w-full px-2 md:px-0">
         <h1 className="text-3xl md:text-5xl text-white w-full font-semibold">
           Looking for a place to stay in Lagos?

@@ -4,6 +4,7 @@
 
 @font-face {
   font-family: "nunito-sans";
+  font-display: swap;
   src: url('./Assets/fonts/NunitoSans-Regular.ttf');
 }
 

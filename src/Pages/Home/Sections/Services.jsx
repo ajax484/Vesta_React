@@ -6,7 +6,7 @@ export default function Services() {
     <section>
       <div className="text-center mb-10 space-y-4">
         <h1 className="text-vestaPurple-1 text-base md:text-lg tracking-[3px] uppercase after:bg-purple-700 after:inline-block after:h-[1px] after:relative after:align-middle after:w-1/4 before:bg-purple-700 before:inline-block before:h-[1px] before:relative before:align-middle before:w-1/4">Our Services</h1>
-        <h3 className="text-3xl md:text-4xl font-medium capitalize mt-2 mb-3">Best way to get a home</h3>
+        <h2 className="text-3xl md:text-4xl font-medium capitalize mt-2 mb-3">Best way to get a home</h2>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 px-3">
         <div className="flex flex-col space-y-3 p-4 items-center">

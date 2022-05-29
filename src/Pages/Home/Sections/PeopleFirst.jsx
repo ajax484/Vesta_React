@@ -14,12 +14,12 @@ export default function PeopleFirst() {
           <h1 className="text-vestaPurple-1 text-sm sm:text-base md:text-lg tracking-[3px] uppercase after:bg-purple-700 after:inline-block after:h-[1px] after:relative after:align-middle after:w-1/4 before:bg-purple-700 before:inline-block before:h-[1px] before:relative before:align-middle before:w-1/4">
             customer First
           </h1>
-          <h3 className="text-3xl md:text-4xl font-medium capitalize mt-2 mb-3">
+          <h2 className="text-3xl md:text-4xl font-medium capitalize mt-2 mb-3">
             We put people first
-          </h3>
+          </h2>
         </div>
 
-        <div className="text-gray-400 lg:space-y-4 text-sm md:text-base">
+        <div className="text-gray-500 lg:space-y-4 text-sm md:text-base">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste cum commodi ea et
             assumenda iusto voluptas dolores accusamus repellendus ex delectus qui reiciendis

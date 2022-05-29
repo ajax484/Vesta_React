@@ -52,12 +52,12 @@ function BlogPostCard({ post }) {
                         <span>{author}</span>
                         <span>{date}</span>
                     </div>
-                    <h3 className="text-vestaPurple-1">{comments} Comments</h3>
+                    <p className="text-vestaPurple-1">{comments} Comments</p>
                 </div>
 
-                <h2 className="text-xl font-semibold leading-relaxed hover:text-vestaPurple-1 transition-colors duration-75 cursor-pointer">
+                <h3 className="text-xl font-semibold leading-relaxed hover:text-vestaPurple-1 transition-colors duration-75 cursor-pointer">
                     {title}
-                </h2>
+                </h3>
 
                 <p className="text-gray-500 leading-relaxed">
                     {content}
@@ -74,9 +74,9 @@ export default function Blog() {
                 <h1 className="text-vestaPurple-1 text-base md:text-lg tracking-[3px] uppercase after:bg-purple-700 after:inline-block after:h-[1px] after:relative after:align-middle after:w-1/4 before:bg-purple-700 before:inline-block before:h-[1px] before:relative before:align-middle before:w-1/4">
                     our blog
                 </h1>
-                <h3 className="text-3xl md:text-4xl font-medium capitalize mt-2 mb-3">
+                <h2 className="text-3xl md:text-4xl font-medium capitalize mt-2 mb-3">
                     recent blog
-                </h3>
+                </h2>
             </div>
 
             <div className=" w-11/12 mx-auto grid px-2 gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">

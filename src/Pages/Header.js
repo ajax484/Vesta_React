@@ -20,8 +20,11 @@ export default function Header() {
     return (
         <header className={`text-white w-full body-font fixed top-0 z-50 transition-colors duration-[600ms] ${scrolled ? 'bg-vestaPurple-1' : "bg-[transparent]"}`}>
             <div className="mx-auto flex flex-wrap py-1.5 px-2 md:px-5 flex-col md:flex-row items-center">
-                <NavLink to="/" className="w-full md:w-fit mb-2 md:mb-0 pr-2 flex justify-between items-center">
-                    <img src={Vesta} alt="" className='h-14' />
+                <div className="w-full md:w-fit mb-2 md:mb-0 pr-2 flex justify-between items-center">
+                    <NavLink to="/" aria-label="logo">
+                        <img src={Vesta} alt="" className='h-14' />
+                    </NavLink>
+
                     <button
                         onClick={
                             () => {
@@ -29,10 +32,11 @@ export default function Header() {
                                 if (!scrolled) setScrolled((prevScrolled => !prevScrolled));
                             }
                         }
+                        aria-label="Open Menu"
                     >
                         <HamburgerMenu className="md:hidden block h-8" />
                     </button>
-                </NavLink>
+                </div>
 
                 <nav
                     className={`${!open ? 'hidden md:flex' : 'flex'} lg:text-lg transition-opacity duration-[600ms] md:ml-auto flex-wrap flex-col md:flex-row items-center justify-center space-y-2 md:space-y-0 md:space-x-10 text-gray-300`}

@@ -19,9 +19,9 @@ module.exports = {
       },
 
       backgroundImage: {
-        "hero": "url('/src/Assets/img/national-theatre.jpg')",
-        "interior": "url('/src/Assets/img/interior.jpg')",
-        "girl": "url('/src/Assets/img/girl.png')",
+        "hero": "url('/src/Assets/img/national-theatre.webp')",
+        "interior": "url('/src/Assets/img/interior.webp')",
+        "girl": "url('/src/Assets/img/girl.webp')",
       }
     },
   },

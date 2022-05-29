@@ -36,7 +36,7 @@ function AgentCard({agent}) {
                     <span>Listing</span>
                     <span>{listing} properties</span>
                 </div>
-                <h1 className="text-xl cursor-pointer hover:text-shadow-xl">{name}</h1>
+                <h3 className="text-xl cursor-pointer hover:text-shadow-xl">{name}</h3>
                 <div className="text-white flex space-x-4">
                     <Facebook className="h-10 w-10 bg-vestaPurple-2 p-2 rounded-full cursor-pointer hover:bg-black transition-colors duration-75" />
                     <Twitter className="h-10 w-10 bg-vestaPurple-2 p-2 rounded-full cursor-pointer hover:bg-black transition-colors duration-75" />
@@ -57,9 +57,9 @@ export default function Agents() {
                     <h1 className="text-white text-base md:text-lg tracking-[3px] uppercase after:bg-purple-700 after:inline-block after:h-[1px] after:relative after:align-middle after:w-1/4 before:bg-purple-700 before:inline-block before:h-[1px] before:relative before:align-middle before:w-1/4">
                         our agents
                     </h1>
-                    <h3 className="text-3xl md:text-4xl font-medium capitalize mt-2 mb-3 text-white">
+                    <h2 className="text-3xl md:text-4xl font-medium capitalize mt-2 mb-3 text-white">
                         meet our agents
-                    </h3>
+                    </h2>
                 </div>
 
                 <div className="grid gap-10 md:gap-5 lg:gap-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-vestaPurple-1">
